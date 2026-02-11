@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Ultralytics / YOLO outputs
+runs/
+runs_compare/
+runs_finetune/
+
+# Datasets (souvent très lourds)
+data/
+datasets/
+
+# Logs & reports (optionnel)
+reports/
+*.log
+
+# Weights (souvent lourds, à éviter sur GitHub)
+*.pt
